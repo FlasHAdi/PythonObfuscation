@@ -2,54 +2,54 @@
 
 ## Ce este asta?
 
-Acesta este un **Instrument de Protec?ie prin Obfuscare a Modulelor Python** care redenume?te automat toate metodele extensiilor Python C++ �n ?iruri aleatorii, f?c�nd extrem de dificil? �n?elegerea structurii codului pentru inginerii reverse. Protejeaz? logica jocului/aplica?iei tale ascunz�nd numele reale ale func?iilor at�t �n fi?ierele surs? C++ c�t ?i �n scripturile Python.
+Acesta este un **Instrument de Protecție prin Obfuscare a Modulelor Python** care redenumește automat toate metodele extensiilor Python C++ în șiruri aleatorii, făcând extrem de dificilă înțelegerea structurii codului pentru inginerii reverse. Protejează logica jocului/aplicației tale ascunzând numele reale ale funcțiilor atât în fișierele sursă C++ cât și în scripturile Python.
 
-## Ce protejeaz??
+## Ce protejează?
 
-- **Ascunde numele func?iilor**: �nlocuie?te toate numele metodelor PyMethodDef cu ?iruri aleatorii (ex: `GetMainCharacterIndex` devine `xKjPqRtYwZaB`)
-- **Sincronizeaz? modific?rile**: Actualizeaz? automat at�t modulele C++ c�t ?i fi?ierele Python pentru a folosi noile nume obfuscate
-- **P?streaz? func?ionalitatea**: Aplica?ia ta continu? s? func?ioneze exact ca �nainte, dar cu nume de metode ascunse
-- **Protec?ie declara?ii import**: Men?ine declara?iile `from module import function` neschimbate pentru compatibilitate
+- **Ascunde numele funcțiilor**: Înlocuiește toate numele metodelor PyMethodDef cu șiruri aleatorii (ex: `GetMainCharacterIndex` devine `xKjPqRtYwZaB`)
+- **Sincronizează modificările**: Actualizează automat atât modulele C++ cât și fișierele Python pentru a folosi noile nume obfuscate
+- **Păstrează funcționalitatea**: Aplicația ta continuă să funcționeze exact ca înainte, dar cu nume de metode ascunse
+- **Protecție declarații import**: Menține declarațiile `from module import function` neschimbate pentru compatibilitate
 
-## Cum se folose?te
+## Cum se folosește
 
-### Pasul 1: Export? Fi?ierele Modulelor Python
+### Pasul 1: Exportă Fișierele Modulelor Python
 
-�nainte de obfuscare, ar trebui s? extragi doar fi?ierele care con?in metode Python:
+Înainte de obfuscare, ar trebui să extragi doar fișierele care conțin metode Python:
 
-1. **Ruleaz?** `export_py_modules.py`
-2. **Trage ?i las?** folderul t?u `Binary` pe script, SAU
-3. **Scrie/lipe?te** calea c�nd e?ti �ntrebat
-4. Scriptul va copia toate fi?ierele relevante �n folderul `Export_PythonModules`
+1. **Rulează** `export_py_modules.py`
+2. **Trage și lasă** folderul tău `Binary` pe script, SAU
+3. **Scrie/lipește** calea când ești întrebat
+4. Scriptul va copia toate fișierele relevante în folderul `Export_PythonModules`
 
-### Pasul 2: Obfusc? Codul
+### Pasul 2: Obfuscă Codul
 
-1. **Ruleaz?** `obfuscate_py_module.py`
-2. **Furnizeaz? dou? foldere**:
-   - **Folderul Binary C++**: Con?ine fi?ierele surs? C++ ale jocului/aplica?iei tale (ex: `Binary/UserInterface/`)
-   - **Folderul r?d?cin? Python**: Con?ine scripturile tale Python (ex: `root/`)
-3. Po?i:
-   - Trage ambele foldere pe script deodat? (C++ primul, apoi Python)
-   - Trage un folder ?i scrie a doua cale
-   - Ruleaz? normal ?i scrie/lipe?te ambele c?i
+1. **Rulează** `obfuscate_py_module.py`
+2. **Furnizează două foldere**:
+   - **Folderul Binary C++**: Conține fișierele sursă C++ ale jocului/aplicației tale (ex: `Binary/UserInterface/`)
+   - **Folderul rădăcină Python**: Conține scripturile tale Python (ex: `root/`)
+3. Poți:
+   - Trage ambele foldere pe script deodată (C++ primul, apoi Python)
+   - Trage un folder și scrie a doua cale
+   - Rulează normal și scrie/lipește ambele căi
 
-### Pasul 3: Verific? Backup-urile
+### Pasul 3: Verifică Backup-urile
 
-Scriptul creeaz? automat backup-uri cu timestamp �nainte de a face orice modific?ri:
+Scriptul creează automat backup-uri cu timestamp înainte de a face orice modificări:
 - `Binary_backup_20260106`
 - `root_backup_20260106`
 
-P?streaz? aceste backup-uri �n siguran?? �n caz c? trebuie s? restaurezi fi?ierele originale!
+Păstrează aceste backup-uri în siguranță în caz că trebuie să restaurezi fișierele originale!
 
-### Pasul 4: Compileaz? ?i Testeaz?
+### Pasul 4: Compilează și Testează
 
-1. Recompileaz? proiectul C++ cu fi?ierele surs? obfuscate
-2. Testeaz? aplica?ia cu scripturile Python obfuscate
-3. Toat? func?ionalitatea ar trebui s? func?ioneze exact ca �nainte, dar cu nume de metode ascunse
+1. Recompilează proiectul C++ cu fișierele sursă obfuscate
+2. Testează aplicația cu scripturile Python obfuscate
+3. Toată funcționalitatea ar trebui să funcționeze exact ca înainte, dar cu nume de metode ascunse
 
 ## Exemplu
 
-**�nainte de obfuscare (C++):**
+**Înainte de obfuscare (C++):**
 ```cpp
 static PyMethodDef s_methods[] =
 {
@@ -59,7 +59,7 @@ static PyMethodDef s_methods[] =
 };
 ```
 
-**Dup? obfuscare (C++):**
+**După obfuscare (C++):**
 ```cpp
 static PyMethodDef s_methods[] =
 {
@@ -69,14 +69,14 @@ static PyMethodDef s_methods[] =
 };
 ```
 
-**�nainte de obfuscare (Python):**
+**Înainte de obfuscare (Python):**
 ```python
 import player
 index = player.GetMainCharacterIndex()
 player.SetAttackKeyState(True)
 ```
 
-**Dup? obfuscare (Python):**
+**După obfuscare (Python):**
 ```python
 import player
 index = player.xKjPqRtYwZaB()
@@ -85,28 +85,24 @@ player.mNpQrStUvWxY(True)
 
 ## Note Importante
 
-- ?? F? �ntotdeauna backup la fi?ierele tale �nainte de a rula obfuscarea
-- ?? Testeaz? am?nun?it dup? obfuscare pentru a te asigura c? totul func?ioneaz?
-- ?? P?streaz? o mapare a numelor vechi?noi dac? trebuie s? faci debug
-- ?? Ruleaz? obfuscarea doar o dat? per ciclu de build
-- ? Scriptul gestioneaz? multiple encodinguri de fi?iere (UTF-8, EUC-KR, CP949, etc.)
-- ? Declara?iile import r?m�n neschimbate pentru mai bun? compatibilitate
+- ⚠️ Fă întotdeauna backup la fișierele tale înainte de a rula obfuscarea
+- ⚠️ Testează amănunțit după obfuscare pentru a te asigura că totul funcționează
+- ⚠️ Păstrează o mapare a numelor vechi→noi dacă trebuie să faci debug
+- ⚠️ Rulează obfuscarea doar o dată per ciclu de build
+- ✅ Scriptul gestionează multiple encodinguri de fișiere (UTF-8, EUC-KR, CP949, etc.)
+- ✅ Declarațiile import rămân neschimbate pentru mai bună compatibilitate
 
 ## Rezolvarea Problemelor
 
-**�: Scriptul spune "Invalid directory path"**
-- Asigur?-te c? furnizezi calea corect? c?tre folder
-- �ncearc? s? tragi folderul direct pe fi?ierul scriptului
+**Î: Scriptul spune "Invalid directory path"**
+- Asigură-te că furnizezi calea corectă către folder
+- Încearcă să tragi folderul direct pe fișierul scriptului
 
-**�: Unele func?ii nu sunt obfuscate**
-- Scriptul proceseaz? doar fi?ierele care con?in `static PyMethodDef s_methods[]`
-- Verific? dac? modulul t?u define?te corect aceast? structur?
+**Î: Unele funcții nu sunt obfuscate**
+- Scriptul procesează doar fișierele care conțin `static PyMethodDef s_methods[]`
+- Verifică dacă modulul tău definește corect această structură
 
-**�: Aplica?ia se blocheaz? dup? obfuscare**
-- Restaureaz? din backup
-- Verific? c? at�t fi?ierele C++ c�t ?i Python au fost procesate
-- Verific? c? codul C++ se compileaz? f?r? erori
-
-## Suport
-
-Pentru probleme sau �ntreb?ri, te rug?m contacteaz? dezvoltatorul.
+**Î: Aplicația se blochează după obfuscare**
+- Restaurează din backup
+- Verifică că atât fișierele C++ cât și Python au fost procesate
+- Verifică că codul C++ se compilează fără erori
