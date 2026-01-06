@@ -85,12 +85,12 @@ player.mNpQrStUvWxY(True)
 
 ## Important Notes
 
-- ?? Always backup your files before running the obfuscation
-- ?? Test thoroughly after obfuscation to ensure everything works
-- ?? Keep a mapping of old?new names if you need to debug issues
-- ?? Run obfuscation only once per build cycle
-- ? The script handles multiple file encodings (UTF-8, EUC-KR, CP949, etc.)
-- ? Import statements remain unchanged for better compatibility
+- ⚠️ Always backup your files before running the obfuscation
+- ⚠️ Test thoroughly after obfuscation to ensure everything works
+- ⚠️ Keep a mapping of old→new names if you need to debug issues
+- ⚠️ Run obfuscation only once per build cycle
+- ✅ The script handles multiple file encodings (UTF-8, EUC-KR, CP949, etc.)
+- ✅ Import statements remain unchanged for better compatibility
 
 ## Troubleshooting
 
@@ -106,7 +106,3 @@ player.mNpQrStUvWxY(True)
 - Restore from backup
 - Check that both C++ and Python files were processed
 - Verify your C++ code compiles without errors
-
-## Support
-
-For issues or questions, please contact the developer.
