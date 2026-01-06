@@ -11,12 +11,19 @@
 ### Key Features:
 
 ✅ **Automatic Method Renaming** - Converts all PyMethodDef function names to random 12-character strings
+
 ✅ **Synchronized Updates** - Automatically updates both C++ modules and Python scripts in perfect sync
+
 ✅ **Zero Functionality Impact** - Your application works exactly as before, but with protected method names
+
 ✅ **Backup Protection** - Creates timestamped backups before any modifications
+
 ✅ **Multi-Encoding Support** - Handles UTF-8, EUC-KR, CP949, ISO-8859-1, Windows-1252 encodings
+
 ✅ **Drag & Drop Interface** - Simple, user-friendly operation
+
 ✅ **Smart Export Tool** - Extract only Python module files for targeted protection
+
 ✅ **Import Statement Preservation** - Maintains compatibility by keeping import declarations unchanged
 
 ### Perfect For:
@@ -59,12 +66,19 @@ Protect years of development work and proprietary algorithms with a simple, auto
 ### Caracteristici Principale:
 
 ✅ **Redenumire Automată a Metodelor** - Convertește toate numele funcțiilor PyMethodDef în șiruri aleatorii de 12 caractere
+
 ✅ **Actualizări Sincronizate** - Actualizează automat atât modulele C++ cât și scripturile Python în perfectă sincronizare
+
 ✅ **Zero Impact asupra Funcționalității** - Aplicația ta funcționează exact ca înainte, dar cu nume de metode protejate
+
 ✅ **Protecție prin Backup** - Creează backup-uri cu timestamp înainte de orice modificări
+
 ✅ **Suport Multi-Encoding** - Gestionează encodingurile UTF-8, EUC-KR, CP949, ISO-8859-1, Windows-1252
+
 ✅ **Interfață Drag & Drop** - Operare simplă și prietenoasă
+
 ✅ **Instrument de Export Inteligent** - Extrage doar fișierele modulelor Python pentru protecție țintită
+
 ✅ **Păstrarea Declarațiilor Import** - Menține compatibilitatea păstrând declarațiile de import neschimbate
 
 ### Perfect Pentru:
