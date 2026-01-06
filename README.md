@@ -10,19 +10,19 @@
 
 ### Key Features:
 
-? **Automatic Method Renaming** - Converts all PyMethodDef function names to random 12-character strings
-? **Synchronized Updates** - Automatically updates both C++ modules and Python scripts in perfect sync
-? **Zero Functionality Impact** - Your application works exactly as before, but with protected method names
-? **Backup Protection** - Creates timestamped backups before any modifications
-? **Multi-Encoding Support** - Handles UTF-8, EUC-KR, CP949, ISO-8859-1, Windows-1252 encodings
-? **Drag & Drop Interface** - Simple, user-friendly operation
-? **Smart Export Tool** - Extract only Python module files for targeted protection
-? **Import Statement Preservation** - Maintains compatibility by keeping import declarations unchanged
+✅ **Automatic Method Renaming** - Converts all PyMethodDef function names to random 12-character strings
+✅ **Synchronized Updates** - Automatically updates both C++ modules and Python scripts in perfect sync
+✅ **Zero Functionality Impact** - Your application works exactly as before, but with protected method names
+✅ **Backup Protection** - Creates timestamped backups before any modifications
+✅ **Multi-Encoding Support** - Handles UTF-8, EUC-KR, CP949, ISO-8859-1, Windows-1252 encodings
+✅ **Drag & Drop Interface** - Simple, user-friendly operation
+✅ **Smart Export Tool** - Extract only Python module files for targeted protection
+✅ **Import Statement Preservation** - Maintains compatibility by keeping import declarations unchanged
 
 ### Perfect For:
 
-- ?? Game Developers (MMORPGs, Online Games)
-- ??? Anti-Cheat Protection Systems
+- 🎮 Game Developers (MMORPGs, Online Games)
+- 🛡️ Anti-Cheat Protection Systems
 
 ### Protection Level:
 
@@ -48,51 +48,51 @@ Protect years of development work and proprietary algorithms with a simple, auto
 
 ---
 
-## Descriere Produs (Rom�n?)
+## Descriere Produs (Română)
 
-**Ascunde-?i Codul. Protejeaz?-?i Munca.**
+**Ascunde-ți Codul. Protejează-ți Munca.**
 
-### Protec?ie Profesional? pentru Aplica?ii Bazate pe Python
+### Protecție Profesională pentru Aplicații Bazate pe Python
 
-**Protec?ia prin Obfuscare a Modulelor Python** este un instrument avansat de securitate conceput pentru a-?i proteja logica jocului sau aplica?iei de inginerie reverse ?i furt de cod. Aceast? solu?ie automatizat? puternic? obfusc? toate numele metodelor extensiilor Python C++, f?c�nd aproape imposibil? �n?elegerea structurii codului de c?tre hackeri ?i competitori.
+**Protecția prin Obfuscare a Modulelor Python** este un instrument avansat de securitate conceput pentru a-ți proteja logica jocului sau aplicației de inginerie reverse și furt de cod. Această soluție automatizată puternică obfuscă toate numele metodelor extensiilor Python C++, făcând aproape imposibilă înțelegerea structurii codului de către hackeri și competitori.
 
 ### Caracteristici Principale:
 
-? **Redenumire Automat? a Metodelor** - Converte?te toate numele func?iilor PyMethodDef �n ?iruri aleatorii de 12 caractere
-? **Actualiz?ri Sincronizate** - Actualizeaz? automat at�t modulele C++ c�t ?i scripturile Python �n perfect? sincronizare
-? **Zero Impact asupra Func?ionalit??ii** - Aplica?ia ta func?ioneaz? exact ca �nainte, dar cu nume de metode protejate
-? **Protec?ie prin Backup** - Creeaz? backup-uri cu timestamp �nainte de orice modific?ri
-? **Suport Multi-Encoding** - Gestioneaz? encodingurile UTF-8, EUC-KR, CP949, ISO-8859-1, Windows-1252
-? **Interfa?? Drag & Drop** - Operare simpl? ?i prietenoas?
-? **Instrument de Export Inteligent** - Extrage doar fi?ierele modulelor Python pentru protec?ie ?intit?
-? **P?strarea Declara?iilor Import** - Men?ine compatibilitatea p?str�nd declara?iile de import neschimbate
+✅ **Redenumire Automată a Metodelor** - Convertește toate numele funcțiilor PyMethodDef în șiruri aleatorii de 12 caractere
+✅ **Actualizări Sincronizate** - Actualizează automat atât modulele C++ cât și scripturile Python în perfectă sincronizare
+✅ **Zero Impact asupra Funcționalității** - Aplicația ta funcționează exact ca înainte, dar cu nume de metode protejate
+✅ **Protecție prin Backup** - Creează backup-uri cu timestamp înainte de orice modificări
+✅ **Suport Multi-Encoding** - Gestionează encodingurile UTF-8, EUC-KR, CP949, ISO-8859-1, Windows-1252
+✅ **Interfață Drag & Drop** - Operare simplă și prietenoasă
+✅ **Instrument de Export Inteligent** - Extrage doar fișierele modulelor Python pentru protecție țintită
+✅ **Păstrarea Declarațiilor Import** - Menține compatibilitatea păstrând declarațiile de import neschimbate
 
 ### Perfect Pentru:
 
-- ?? Dezvoltatori de Jocuri (MMORPG-uri, Jocuri Online)
-- ??? Sisteme de Protec?ie Anti-Cheat
+- 🎮 Dezvoltatori de Jocuri (MMORPG-uri, Jocuri Online)
+- 🛡️ Sisteme de Protecție Anti-Cheat
 
-### Nivel de Protec?ie:
+### Nivel de Protecție:
 
-Acest instrument ofer? **obfuscare de grad comercial** care cre?te semnificativ dificultatea ?i costul ingineriei reverse a aplica?iei tale. De?i nicio protec?ie nu este 100% indestructibil?, aceast? solu?ie ridic? bara suficient de sus pentru a descuraja majoritatea atacatorilor ?i a-?i proteja proprietatea intelectual?.
+Acest instrument oferă **obfuscare de grad comercial** care crește semnificativ dificultatea și costul ingineriei reverse a aplicației tale. Deși nicio protecție nu este 100% indestructibilă, această soluție ridică bara suficient de sus pentru a descuraja majoritatea atacatorilor și a-ți proteja proprietatea intelectuală.
 
-### Ce Prime?te Protec?ie:
+### Ce Primește Protecție:
 
 - Toate numele metodelor Python din modulele de extensie C++
-- Apelurile de func?ii din �ntreaga baz? de cod Python
-- Structura API intern? ?i conven?iile de denumire
-- Logica de business ?i detaliile implement?rii algoritmilor
+- Apelurile de funcții din întreaga bază de cod Python
+- Structura API internă și convențiile de denumire
+- Logica de business și detaliile implementării algoritmilor
 
-### U?or de Folosit:
+### Ușor de Folosit:
 
-1. Export? fi?ierele modulelor Python cu un singur click
-2. Trage ?i las? folderele pe script
-3. Obfuscare automat? �n c�teva secunde
-4. Compileaz? ?i distribuie cu �ncredere
+1. Exportă fișierele modulelor Python cu un singur click
+2. Trage și lasă folderele pe script
+3. Obfuscare automată în câteva secunde
+4. Compilează și distribuie cu încredere
 
-### Protec?ia Investi?iei:
+### Protecția Investiției:
 
-Protejeaz? ani de munc? de dezvoltare ?i algoritmi proprietari cu o solu?ie simpl? ?i automatizat?. Nu l?sa munca ta grea s? devin? prad? u?oar? pentru inginerii reverse ?i ho?ii de cod.
+Protejează ani de muncă de dezvoltare și algoritmi proprietari cu o soluție simplă și automatizată. Nu lăsa munca ta grea să devină pradă ușoară pentru inginerii reverse și hoții de cod.
 
 ---
 
@@ -100,4 +100,4 @@ Protejeaz? ani de munc? de dezvoltare ?i algoritmi proprietari cu o solu?ie simp
 
 This tool is provided for legitimate software protection purposes. Users are responsible for ensuring their use complies with all applicable laws and regulations.
 
-� 2026 All Rights Reserved
+© 2026 All Rights Reserved
